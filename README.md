@@ -50,3 +50,4 @@ Our goal is to have a soild core that we can extend from into multiple differnt 
 - [ ] refactor code
 - [ ] update ai package to atleast version 4.0.0
 - [ ] add a plugin / extension system
+- [ ] test llm provider
