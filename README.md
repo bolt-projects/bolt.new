@@ -67,4 +67,5 @@ To streamline progress, these tasks have been divided into four separate updates
 - [ ] documentation (a good documentation start explain the structure and use)
 
 ### Then project bolt.diy is reborn with the following:
+- [ ] style and branding changes
 - [ ] add a plugin / extension system (This is where all the provider types, models, prompts, etc will be shown and all created and managed by the community)
