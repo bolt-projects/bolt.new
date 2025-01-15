@@ -4,7 +4,7 @@ All changes will still happen in the orginal repo, https://github.com/openaisoft
 ## Goal
 Our goal is to have a soild core that we can extend from into multiple differnt projects. This will mimic the bolt.new current state using open source inspired solutions from bolt.diy. This will give all projects moving forward a clean history with update dependances. 
 
---------- Completed So far ---------
+### Completed So far 
 - [X] Fork Orginal Project
 - [X] Take inspiration from bolt.new and bolt.diy 
 - [X] Image Support
@@ -18,7 +18,8 @@ Our goal is to have a soild core that we can extend from into multiple differnt 
 - [X] Fix hanging shell
 - [X] UI Fixes
 
---------- To finish up the core build ---------
+
+### To finish up the core build 
 - [ ] (@thecodacus) Add Starter Template Options
 - [ ] (@thecodacus) Bolt terminal to see the output of LLM run commands
 - [ ] (@thecodacus) Load Git Projects and from URL
@@ -30,8 +31,21 @@ Our goal is to have a soild core that we can extend from into multiple differnt 
 - [ ] (@goncaloalves) Publish projects directly to GitHub
 - [ ] (@muzafferkadir) Ability to sync files (one way sync) to local folder
 - [ ] (@qwikode) Mobile friendly
+- [ ] (@dustinwloring1988) characters to valid list for titles 
+- [ ] (@dustinwloring1988) Simple Setting Modal 
 
---------- Then ---------
+
+### Next Batch To Catch Up
+
+- [ ] (@Stijnus) GitHub Integration
+- [ ] (@Stijnus) Open Preview in new tab
+- [ ] (@Stijnus) auto sync Implementation V2
+- [ ] (@wonderwhy-er) Fix for CORS Issue
+- [ ] (@thecodacus) Current Version For Check For Updates
+- [ ] (@AbdullahOmar0) Git Clone Dialog
+
+
+### Lastly the following
 - [ ] improved logging
 - [ ] refactor code
 - [ ] update ai package to atleast version 4.0.0
