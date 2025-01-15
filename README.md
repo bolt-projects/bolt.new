@@ -46,6 +46,7 @@ Our goal is to have a soild core that we can extend from into multiple differnt 
 - [ ] improved logging (simialar to bolt.diy)
 - [ ] refactor code (refactor some as we go then a lot more of the heavy stuff here)
 - [ ] update ai package to atleast version 4.0.0 (some code will need updated for this so after the refactoring)
+- [ ] update other dependances (update what we can so that it dose not have to be done and all depercated code will be removed for the core)
 - [ ] test llm provider (this will make testing eaies and cheaper)
 - [ ] documentation
 
