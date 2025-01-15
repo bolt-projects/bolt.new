@@ -44,14 +44,14 @@ To streamline progress, these tasks have been divided into four separate updates
 
 ### Second Update:
 - [ ] (@thecodacus) Current Version For Check For Updates
+- [ ] (@thecodacus) in browser vector store and local database 
+- [ ] (@wonderwhy-er) Fix for CORS Issue
 - [ ] (@wonderwhy-er) Detect preview Errors and ask bolt to fix it
 - [ ] (@goncaloalves) Publish projects directly to GitHub
 - [ ] (@muzafferkadir) Ability to sync files (one way sync) to local folder
 - [ ] (@Stijnus) Open Preview in new tab
 
 ### Third Update:
-- [ ] (@thecodacus) in browser vector store and local database 
-- [ ] (@wonderwhy-er) Fix for CORS Issue
 - [ ] (@Stijnus) GitHub Integration
 - [ ] (@AbdullahOmar0) Git Clone Dialog
 - [ ] (@qwikode) Mobile friendly
