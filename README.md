@@ -65,7 +65,7 @@ To streamline progress, these tasks have been divided into four separate updates
 ## Lastly:
 - [ ] update other dependances (update what we can so that it dose not have to be done and all depercated code will be removed for the core)
 - [ ] bug fixes (any bug fixes that are found, do this for a while before moving on to have a soild core to work from)
-- [ ] documentation (a good documentation, though this will not be the final but a good start to take into bolt.diy)
+- [ ] documentation (a good documentation start explain the structure and use)
 
 ### Then project bolt.diy is reborn with the following:
 - [ ] add a plugin / extension system (This is where all the provider types, models, prompts, etc will be shown and all created and managed by the community)
