@@ -19,7 +19,7 @@ Our goal is to have a soild core that we can extend from into multiple differnt 
 - [X] UI Fixes
 
 
-### To finish up the core build 
+### To finish up the core build:
 - [ ] (@thecodacus) Add Starter Template Options
 - [ ] (@thecodacus) Bolt terminal to see the output of LLM run commands
 - [ ] (@thecodacus) Load Git Projects and from URL
@@ -35,8 +35,7 @@ Our goal is to have a soild core that we can extend from into multiple differnt 
 - [ ] (@dustinwloring1988) Simple Setting Modal 
 
 
-### Next Batch To Catch Up
-
+### Next batch to catch up:
 - [ ] (@Stijnus) GitHub Integration
 - [ ] (@Stijnus) Open Preview in new tab
 - [ ] (@Stijnus) auto sync Implementation V2
@@ -45,9 +44,11 @@ Our goal is to have a soild core that we can extend from into multiple differnt 
 - [ ] (@AbdullahOmar0) Git Clone Dialog
 
 
-### Lastly the following
+### Lastly the following:
 - [ ] improved logging (simialar to bolt.diy)
 - [ ] refactor code (refactor some as we go then a lot more of the heavy stuff here)
 - [ ] update ai package to atleast version 4.0.0 (some code will need updated for this so after the refactoring)
 - [ ] test llm provider (this will make testing eaies and cheaper)
+
+### The project bolt.diy is reborn with the following:
 - [ ] add a plugin / extension system (This is where all the provider types, models, prompts, etc will be shown and all created and managed by the community)
