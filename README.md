@@ -60,7 +60,7 @@ To streamline progress, these tasks have been divided into four separate updates
 
 ### Fourth Update:
 - [ ] large code refactor (refactor some as we go then a lot more of the heavy stuff here)
-- [ ] update ai package to atleast version 4.0.0 (some code will need updated for this so after the refactoring)
+- [ ] update ai package to version 4.0.13 (some code will need updated for this so after the refactoring)
 
 ## Lastly:
 - [ ] update other dependances (update what we can so that it dose not have to be done and all depercated code will be removed for the core)
