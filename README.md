@@ -33,20 +33,19 @@ To streamline progress, these tasks have been divided into four separate updates
 
 
 ### First Update:
+- [ ] (@wonderwhy-er) Load local projects into the app
+- [ ] (@wonderwhy-er) Detect package.json and commands to auto install & run preview for folder and git import
+- [ ] (@wonderwhy-er) Ability to revert code to earlier version
 - [ ] (@thecodacus) Add Starter Template Options
 - [ ] (@thecodacus) Bolt terminal to see the output of LLM run commands
 - [ ] (@thecodacus) Load Git Projects and from URL
 - [ ] (@thecodacus) Detect terminal Errors and ask bolt to fix it
-- [ ] (@wonderwhy-er) Load local projects into the app
-- [ ] (@wonderwhy-er) Detect package.json and commands to auto install & run preview for folder and git import
-- [ ] (@wonderwhy-er) Ability to revert code to earlier version
 - [ ] (@dustinwloring1988) characters to valid list for titles 
 
 ### Second Update:
-- [ ] (@thecodacus) Current Version For Check For Updates
-- [ ] (@thecodacus) in browser vector store and local database 
 - [ ] (@wonderwhy-er) Fix for CORS Issue
 - [ ] (@wonderwhy-er) Detect preview Errors and ask bolt to fix it
+- [ ] (@thecodacus) Current Version For Check For Updates
 - [ ] (@goncaloalves) Publish projects directly to GitHub
 - [ ] (@muzafferkadir) Ability to sync files (one way sync) to local folder
 - [ ] (@Stijnus) Open Preview in new tab
