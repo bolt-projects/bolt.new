@@ -50,6 +50,7 @@ To streamline progress, these tasks have been divided into four separate updates
 - [ ] (@Stijnus) Open Preview in new tab
 
 ### Third Update:
+- [ ] (@thecodacus) in browser vector store and local database 
 - [ ] (@wonderwhy-er) Fix for CORS Issue
 - [ ] (@Stijnus) GitHub Integration
 - [ ] (@AbdullahOmar0) Git Clone Dialog
