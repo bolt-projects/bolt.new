@@ -19,36 +19,41 @@ Our goal is to have a soild core that we can extend from into multiple differnt 
 - [X] UI Fixes
 
 
-### To finish up the core build:
+### First Update:
 - [ ] (@thecodacus) Add Starter Template Options
 - [ ] (@thecodacus) Bolt terminal to see the output of LLM run commands
 - [ ] (@thecodacus) Load Git Projects and from URL
 - [ ] (@thecodacus) Detect terminal Errors and ask bolt to fix it
-- [ ] (@wonderwhy-er) Detect preview Errors and ask bolt to fix it
 - [ ] (@wonderwhy-er) Load local projects into the app
 - [ ] (@wonderwhy-er) Detect package.json and commands to auto install & run preview for folder and git import
 - [ ] (@wonderwhy-er) Ability to revert code to earlier version
 - [ ] (@dustinwloring1988) characters to valid list for titles 
+
+### Second Update:
+- [ ] (@thecodacus) Current Version For Check For Updates
+- [ ] (@wonderwhy-er) Detect preview Errors and ask bolt to fix it
 - [ ] (@dustinwloring1988) Simple Setting Modal 
 - [ ] (@goncaloalves) Publish projects directly to GitHub
 - [ ] (@muzafferkadir) Ability to sync files (one way sync) to local folder
-- [ ] (@qwikode) Mobile friendly
 - [ ] (@Stijnus) Open Preview in new tab
 
-### Next batch to catch up:
-- [ ] (@Stijnus) GitHub Integration
+### Third Update:
 - [ ] (@wonderwhy-er) Fix for CORS Issue
-- [ ] (@thecodacus) Current Version For Check For Updates
+- [ ] (@Stijnus) GitHub Integration
 - [ ] (@AbdullahOmar0) Git Clone Dialog
+- [ ] (@qwikode) Mobile friendly
 
 
-### Lastly the following:
+### Fourth Update:
 - [ ] improved logging (simialar to bolt.diy)
-- [ ] refactor code (refactor some as we go then a lot more of the heavy stuff here)
+- [ ] large code refactor (refactor some as we go then a lot more of the heavy stuff here)
 - [ ] update ai package to atleast version 4.0.0 (some code will need updated for this so after the refactoring)
-- [ ] update other dependances (update what we can so that it dose not have to be done and all depercated code will be removed for the core)
 - [ ] test llm provider (this will make testing eaies and cheaper)
-- [ ] documentation
 
-### The project bolt.diy is reborn with the following:
+## Lastly:
+- [ ] update other dependances (update what we can so that it dose not have to be done and all depercated code will be removed for the core)
+- [ ] bug fixes (any bug fixes that are found, do this for a while before moving on to have a soild core to work from)
+- [ ] documentation (a good documentation, though this will not be the final but a good start to take into bolt.diy)
+
+### Then project bolt.diy is reborn with the following:
 - [ ] add a plugin / extension system (This is where all the provider types, models, prompts, etc will be shown and all created and managed by the community)
