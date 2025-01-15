@@ -46,8 +46,8 @@ Our goal is to have a soild core that we can extend from into multiple differnt 
 
 
 ### Lastly the following
-- [ ] improved logging
-- [ ] refactor code
-- [ ] update ai package to atleast version 4.0.0
-- [ ] add a plugin / extension system
-- [ ] test llm provider
+- [ ] improved logging (simialar to bolt.diy)
+- [ ] refactor code (refactor some as we go then a lot more of the heavy stuff here)
+- [ ] update ai package to atleast version 4.0.0 (some code will need updated for this so after the refactoring)
+- [ ] test llm provider (this will make testing eaies and cheaper)
+- [ ] add a plugin / extension system (This is where all the provider types, models, prompts, etc will be shown and all created and managed by the community)
