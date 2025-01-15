@@ -1,9 +1,21 @@
-# Project
-All changes will still happen in the orginal repo, https://github.com/openaisoftware/bolt.new, until the core is done. I belive that we still need somthing simialr to the following commits from bolt.diy and I also included the orginal authors of each that we still need (These will not be striped from bolt.diy but a remake using what we have learned and now that we know where it is going). These have also been divided up into 4 seperate updates to keep everything moving and areas that depend on each other out of the way, though more moving around may need done.
+# Project Overview
+All development changes will continue in the original repository: openaisoftware/bolt.new until the core functionality is complete.
 
-## Goals:
-1) Our goal is to have a soild core that we can extend from into multiple differnt projects (one being a bolt.diy and the other a vanilia bolt.new experiance, This will mimic the bolt.new current state using open source inspired solutions from bolt.diy.) This will give all projects moving forward a cleaner history with updated dependances and a tried and tested core to start from. 
-2) Large refactoring and documentation should be kept until all the core is in the repo and only small specfic refactor for that PR should be done. (Better logging, more dependance updates, documenation, large refactoring should be kept until the core functionalitly is built.)
+We recognize the need to incorporate elements similar to certain commits from bolt.diy. Below, we've listed these necessary updates along with their original authors. These will not be directly copied from bolt.diy, but rather reimplemented using the knowledge we've gained and with a clear direction in mind.
+
+To streamline progress, these tasks have been divided into four separate updates. This approach helps prevent interdependencies from causing delays, though further adjustments may be necessary.
+## Goals
+
+1. **Solid Core Foundation:**
+   - Develop a robust and extensible core that can support multiple projects, including:
+     - **bolt.diy**
+     - A vanilla **bolt.new** experience inspired by open-source solutions from **bolt.diy**
+   - This strategy will provide a cleaner project history, updated dependencies, and a reliable foundation for future development.
+
+2. **Refactoring and Documentation:**
+   - Large-scale refactoring and comprehensive documentation will be postponed until the core functionality is fully implemented.
+   - Only targeted, small-scale refactoring should be done within individual pull requests (e.g., better logging, dependency updates).
+   - Major improvements (e.g., extensive refactoring, documentation overhauls) will follow once the core is complete.
 
 ### Completed So far 
 - [X] Fork Orginal Project
