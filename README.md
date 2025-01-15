@@ -52,13 +52,13 @@ To streamline progress, these tasks have been divided into four separate updates
 - [ ] (@Stijnus) Open Preview in new tab
 
 ### Third Update:
+- [ ] (@thecodacus) improved logging, Universal Logging System
 - [ ] (@Stijnus) GitHub Integration
 - [ ] (@AbdullahOmar0) Git Clone Dialog
 - [ ] (@qwikode) Mobile friendly
 - [ ] (@mrsimpson) test llm provider
 
 ### Fourth Update:
-- [ ] improved logging (simialar to bolt.diy)
 - [ ] large code refactor (refactor some as we go then a lot more of the heavy stuff here)
 - [ ] update ai package to atleast version 4.0.0 (some code will need updated for this so after the refactoring)
 
