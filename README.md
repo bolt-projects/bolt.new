@@ -30,3 +30,9 @@ Our goal is to have a soild core that we can extend from into multiple differnt 
 - [ ] (@goncaloalves) Publish projects directly to GitHub
 - [ ] (@muzafferkadir) Ability to sync files (one way sync) to local folder
 - [ ] (@qwikode) Mobile friendly
+
+--------- Then ---------
+- [ ] improved logging
+- [ ] refactor code
+- [ ] update ai package to atleast version 4.0.0
+- [ ] add a plugin / extension system
