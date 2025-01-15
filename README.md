@@ -1,8 +1,8 @@
 # Project
-All changes will still happen in the orginal repo, https://github.com/openaisoftware/bolt.new, until the core is done. I belive teat we still need somthing simialr to the following commits from bolt.diy and I also included the orginal authors:
+All changes will still happen in the orginal repo, https://github.com/openaisoftware/bolt.new, until the core is done. I belive that we still need somthing simialr to the following commits from bolt.diy and I also included the orginal authors of each that we still need (These will not be striped from bolt.diy but a remake using what we have learned and now that we know where it is going).
 
 ## Goal
-Our goal is to have a soild core that we can extend from into multiple differnt projects. This will mimic the bolt.new current state using open source inspired solutions from bolt.diy. This will give all projects moving forward a clean history with update dependances. 
+Our goal is to have a soild core that we can extend from into multiple differnt projects. This will mimic the bolt.new current state using open source inspired solutions from bolt.diy. This will give all projects moving forward a clean history with update dependances. Large refactoring and documentation should be kept until all the core is in the repo and only small specfic refactor for that PR should be done. Better logging, more dependance updates, documenation, large refactoring should be kept until the core is built.
 
 ### Completed So far 
 - [X] Fork Orginal Project
@@ -28,17 +28,15 @@ Our goal is to have a soild core that we can extend from into multiple differnt 
 - [ ] (@wonderwhy-er) Load local projects into the app
 - [ ] (@wonderwhy-er) Detect package.json and commands to auto install & run preview for folder and git import
 - [ ] (@wonderwhy-er) Ability to revert code to earlier version
+- [ ] (@dustinwloring1988) characters to valid list for titles 
+- [ ] (@dustinwloring1988) Simple Setting Modal 
 - [ ] (@goncaloalves) Publish projects directly to GitHub
 - [ ] (@muzafferkadir) Ability to sync files (one way sync) to local folder
 - [ ] (@qwikode) Mobile friendly
-- [ ] (@dustinwloring1988) characters to valid list for titles 
-- [ ] (@dustinwloring1988) Simple Setting Modal 
-
+- [ ] (@Stijnus) Open Preview in new tab
 
 ### Next batch to catch up:
 - [ ] (@Stijnus) GitHub Integration
-- [ ] (@Stijnus) Open Preview in new tab
-- [ ] (@Stijnus) auto sync Implementation V2
 - [ ] (@wonderwhy-er) Fix for CORS Issue
 - [ ] (@thecodacus) Current Version For Check For Updates
 - [ ] (@AbdullahOmar0) Git Clone Dialog
@@ -49,6 +47,7 @@ Our goal is to have a soild core that we can extend from into multiple differnt 
 - [ ] refactor code (refactor some as we go then a lot more of the heavy stuff here)
 - [ ] update ai package to atleast version 4.0.0 (some code will need updated for this so after the refactoring)
 - [ ] test llm provider (this will make testing eaies and cheaper)
+- [ ] documentation
 
 ### The project bolt.diy is reborn with the following:
 - [ ] add a plugin / extension system (This is where all the provider types, models, prompts, etc will be shown and all created and managed by the community)
