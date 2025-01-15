@@ -2,7 +2,7 @@
 All changes will still happen in the orginal repo, https://github.com/openaisoftware/bolt.new, until the core is done. I belive that we still need somthing simialr to the following commits from bolt.diy and I also included the orginal authors of each that we still need (These will not be striped from bolt.diy but a remake using what we have learned and now that we know where it is going).
 
 ## Goal
-Our goal is to have a soild core that we can extend from into multiple differnt projects. This will mimic the bolt.new current state using open source inspired solutions from bolt.diy. This will give all projects moving forward a clean history with update dependances. Large refactoring and documentation should be kept until all the core is in the repo and only small specfic refactor for that PR should be done. Better logging, more dependance updates, documenation, large refactoring should be kept until the core is built.
+Our goal is to have a soild core that we can extend from into multiple differnt projects (one being a bolt.diy and the other a vanilia bolt.new experiance). This will mimic the bolt.new current state using open source inspired solutions from bolt.diy. This will give all projects moving forward a clean history with update dependances. Large refactoring and documentation should be kept until all the core is in the repo and only small specfic refactor for that PR should be done. Better logging, more dependance updates, documenation, large refactoring should be kept until the core is built.
 
 ### Completed So far 
 - [X] Fork Orginal Project
