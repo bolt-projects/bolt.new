@@ -14,7 +14,7 @@ To streamline progress, these tasks have been divided into four separate updates
 
 2. **Refactoring and Documentation:**
    - Large-scale refactoring and comprehensive documentation will be postponed until the core functionality is fully implemented.
-   - Only targeted, small-scale refactoring should be done within individual pull requests (e.g., better logging, dependency updates).
+   - Only targeted, small-scale refactoring should be done within individual pull requests.
    - Major improvements (e.g., extensive refactoring, documentation overhauls) will follow once the core is complete.
 
 ### Completed So far 
