@@ -1,5 +1,5 @@
 # Project
-All changes will still happen in the orginal repo until the core is done. I belive teat we still need somthing simialr to the following commits from bolt.diy and I also included the orginal authors:
+All changes will still happen in the orginal repo, https://github.com/openaisoftware/bolt.new, until the core is done. I belive teat we still need somthing simialr to the following commits from bolt.diy and I also included the orginal authors:
 
 ## Goal
 Our goal is to have a soild core that we can extend from into multiple differnt projects. This will mimic the bolt.new current state using open source inspired solutions from bolt.diy. This will give all projects moving forward a clean history with update dependances. 
