@@ -1,5 +1,5 @@
 # Project
-All changes will still happen in the orginal repo, https://github.com/openaisoftware/bolt.new, until the core is done. I belive that we still need somthing simialr to the following commits from bolt.diy and I also included the orginal authors of each that we still need (These will not be striped from bolt.diy but a remake using what we have learned and now that we know where it is going).
+All changes will still happen in the orginal repo, https://github.com/openaisoftware/bolt.new, until the core is done. I belive that we still need somthing simialr to the following commits from bolt.diy and I also included the orginal authors of each that we still need (These will not be striped from bolt.diy but a remake using what we have learned and now that we know where it is going). These have also been divided up into 4 seperate updates to keep everything moving and areas that depend on each other out of the way, though more moving around may need done.
 
 ## Goals:
 1) Our goal is to have a soild core that we can extend from into multiple differnt projects (one being a bolt.diy and the other a vanilia bolt.new experiance, This will mimic the bolt.new current state using open source inspired solutions from bolt.diy.) This will give all projects moving forward a cleaner history with updated dependances and a tried and tested core to start from. 
@@ -33,7 +33,6 @@ All changes will still happen in the orginal repo, https://github.com/openaisoft
 ### Second Update:
 - [ ] (@thecodacus) Current Version For Check For Updates
 - [ ] (@wonderwhy-er) Detect preview Errors and ask bolt to fix it
-- [ ] (@dustinwloring1988) Simple Setting Modal 
 - [ ] (@goncaloalves) Publish projects directly to GitHub
 - [ ] (@muzafferkadir) Ability to sync files (one way sync) to local folder
 - [ ] (@Stijnus) Open Preview in new tab
