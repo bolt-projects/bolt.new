@@ -1,5 +1,4 @@
 import { type ActionFunctionArgs } from '@remix-run/cloudflare';
-import { StreamingTextResponse, parseStreamPart } from 'ai';
 import { streamText } from '~/lib/.server/llm/stream-text';
 import { stripIndents } from '~/utils/stripIndent';
 
@@ -34,21 +33,30 @@ async function enhancerAction({ context, request }: ActionFunctionArgs) {
 
     const transformStream = new TransformStream({
       transform(chunk, controller) {
-        const processedChunk = decoder
-          .decode(chunk)
-          .split('\n')
-          .filter((line) => line !== '')
-          .map(parseStreamPart)
-          .map((part) => part.value)
-          .join('');
-
-        controller.enqueue(encoder.encode(processedChunk));
+        const text = decoder.decode(chunk);
+        const lines = text.split('\n').filter(line => line.trim() !== '');
+        
+        for (const line of lines) {
+          try {
+            const json = JSON.parse(line);
+            if (json.type === 'text') {
+              controller.enqueue(encoder.encode(json.value));
+            }
+          } catch (e) {
+            // Skip invalid JSON
+            console.error('Failed to parse stream chunk', e);
+          }
+        }
       },
     });
 
     const transformedStream = result.toDataStream().pipeThrough(transformStream);
-
-    return new StreamingTextResponse(transformedStream);
+    
+    return new Response(transformedStream, {
+      headers: {
+        'Content-Type': 'text/plain; charset=utf-8',
+      },
+    });
   } catch (error) {
     console.log(error);
 
