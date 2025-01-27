@@ -168,8 +168,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0(@remix-run/react@2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3))(@remix-run/server-runtime@2.15.2(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       remix-utils:
-        specifier: ^7.7.0
-        version: 7.7.0(@remix-run/cloudflare@2.15.2(@cloudflare/workers-types@4.20250109.0)(typescript@5.7.3))(@remix-run/node@2.15.2(typescript@5.7.3))(@remix-run/react@2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3))(@remix-run/router@1.21.0)(react@18.3.1)(zod@3.24.1)
+        specifier: ^8.1.0
+        version: 8.1.0(react@18.3.1)(zod@3.24.1)
       shiki:
         specifier: ^1.27.2
         version: 1.27.2
@@ -419,6 +419,11 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
+  '@babel/parser@7.26.7':
+    resolution: {integrity: sha512-kEvgGGgEjRUutvdVvZhbn/BxVt+5VSpwXz1j3WYXQbXDo8KzFOPNG2GQbdAiNq8g6wn1yKk7C/qrke03a84V+w==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
   '@babel/plugin-syntax-decorators@7.25.9':
     resolution: {integrity: sha512-ryzI0McXUPJnRCvMo4lumIKZUzhYUO/ScI+Mz4YVaTLt04DHNSjEUjKVvbzQjZFLuod/cYEc07mJWhzl6v4DPg==}
     engines: {node: '>=6.9.0'}
@@ -469,6 +474,10 @@ packages:
 
   '@babel/types@7.26.5':
     resolution: {integrity: sha512-L6mZmwFDK6Cjh1nRCLXpa6no13ZIioJDz7mdkzHv399pThrTa/k0nUlNaenOeh2kWu/iaOQYElEpKPUswUa9Vg==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/types@7.26.7':
+    resolution: {integrity: sha512-t8kDRGrKXyp6+tjUh7hw2RLyclsW4TRoRvRHtSyAX9Bb5ldlFh+90YAYY6awRXrlB4G5G2izNeGySpATlFzmOg==}
     engines: {node: '>=6.9.0'}
 
   '@blitz/eslint-plugin@0.1.3':
@@ -4616,35 +4625,29 @@ packages:
       react: '>= 16.8'
       react-dom: '>= 16.8'
 
-  remix-utils@7.7.0:
-    resolution: {integrity: sha512-J8NhP044nrNIam/xOT1L9a4RQ9FSaA2wyrUwmN8ZT+c/+CdAAf70yfaLnvMyKcV5U+8BcURQ/aVbth77sT6jGA==}
-    engines: {node: '>=18.0.0'}
+  remix-utils@8.1.0:
+    resolution: {integrity: sha512-k44K4FOPyMv6QQ+yaQrCrXdnzkKE1b86ZUODAK5fvmWsmi7ntZAAA+Ods+nzNAxFEAPDTreCzl7cGWnxWd6ibw==}
+    engines: {node: '>=20.0.0'}
     peerDependencies:
-      '@remix-run/cloudflare': ^2.0.0
-      '@remix-run/node': ^2.0.0
-      '@remix-run/react': ^2.0.0
-      '@remix-run/router': ^1.7.2
-      crypto-js: ^4.1.1
+      '@oslojs/crypto': ^1.0.1
+      '@oslojs/encoding': ^1.1.0
       intl-parse-accept-language: ^1.0.0
       is-ip: ^5.0.1
-      react: ^18.0.0
+      react: ^18.0.0 || ^19.0.0
+      react-router: ^7.0.0
       zod: ^3.22.4
     peerDependenciesMeta:
-      '@remix-run/cloudflare':
+      '@oslojs/crypto':
         optional: true
-      '@remix-run/node':
-        optional: true
-      '@remix-run/react':
-        optional: true
-      '@remix-run/router':
-        optional: true
-      crypto-js:
+      '@oslojs/encoding':
         optional: true
       intl-parse-accept-language:
         optional: true
       is-ip:
         optional: true
       react:
+        optional: true
+      react-router:
         optional: true
       zod:
         optional: true
@@ -5080,8 +5083,8 @@ packages:
     resolution: {integrity: sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==}
     engines: {node: '>=8'}
 
-  type-fest@4.32.0:
-    resolution: {integrity: sha512-rfgpoi08xagF3JSdtJlCwMq9DGNDE0IMh3Mkpc1wUypg9vPi786AiqeBBKcqvIkq42azsBM85N490fyZjeUftw==}
+  type-fest@4.33.0:
+    resolution: {integrity: sha512-s6zVrxuyKbbAsSAD5ZPTB77q4YIdRctkTbJ2/Dqlinwz+8ooH2gd+YA7VA6Pa93KML9GockVvoxjZ2vHP+mu8g==}
     engines: {node: '>=16'}
 
   type-is@1.6.18:
@@ -5426,6 +5429,7 @@ packages:
   wrangler@3.102.0:
     resolution: {integrity: sha512-Za4DstbS3+/hu+///K/4dFFeV6XbPBAGp7NCnVajchxRTwEPTdbO5eezH0HLJPMHK6G/0yIzyhlEMnyg4YzHAA==}
     engines: {node: '>=16.17.0'}
+    deprecated: Downgrade to 3.99.0
     hasBin: true
     peerDependencies:
       '@cloudflare/workers-types': ^4.20241230.0
@@ -5715,6 +5719,10 @@ snapshots:
     dependencies:
       '@babel/types': 7.26.5
 
+  '@babel/parser@7.26.7':
+    dependencies:
+      '@babel/types': 7.26.7
+
   '@babel/plugin-syntax-decorators@7.25.9(@babel/core@7.26.0)':
     dependencies:
       '@babel/core': 7.26.0
@@ -5783,6 +5791,11 @@ snapshots:
       - supports-color
 
   '@babel/types@7.26.5':
+    dependencies:
+      '@babel/helper-string-parser': 7.25.9
+      '@babel/helper-validator-identifier': 7.25.9
+
+  '@babel/types@7.26.7':
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
@@ -7463,7 +7476,7 @@ snapshots:
 
   '@vue/compiler-core@3.4.30':
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.7
       '@vue/shared': 3.4.30
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -7476,7 +7489,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.4.30':
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.7
       '@vue/compiler-core': 3.4.30
       '@vue/compiler-dom': 3.4.30
       '@vue/compiler-ssr': 3.4.30
@@ -10692,14 +10705,10 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  remix-utils@7.7.0(@remix-run/cloudflare@2.15.2(@cloudflare/workers-types@4.20250109.0)(typescript@5.7.3))(@remix-run/node@2.15.2(typescript@5.7.3))(@remix-run/react@2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3))(@remix-run/router@1.21.0)(react@18.3.1)(zod@3.24.1):
+  remix-utils@8.1.0(react@18.3.1)(zod@3.24.1):
     dependencies:
-      type-fest: 4.32.0
+      type-fest: 4.33.0
     optionalDependencies:
-      '@remix-run/cloudflare': 2.15.2(@cloudflare/workers-types@4.20250109.0)(typescript@5.7.3)
-      '@remix-run/node': 2.15.2(typescript@5.7.3)
-      '@remix-run/react': 2.15.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
-      '@remix-run/router': 1.21.0
       react: 18.3.1
       zod: 3.24.1
 
@@ -11179,7 +11188,7 @@ snapshots:
 
   type-fest@0.8.1: {}
 
-  type-fest@4.32.0: {}
+  type-fest@4.33.0: {}
 
   type-is@1.6.18:
     dependencies:
